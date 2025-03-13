@@ -56,6 +56,19 @@ As of now, the AI Endpoints platform does not impose a token limit for API reque
 
 In the future, we plan to introduce a token limit feature. This feature will allow you to set a limit on the number of tokens used for each API request, providing better control and management over token consumption.
 
+### API Rate limit
+
+Our API endpoint rate limit depends if you are logged in, or not. During the beta phase, it is:
+
+* anonymous 12/minute per IP
+* logged in : 250/second, 1000/minute per PCI project 
+
+After its beta phase and its available for the public, it will be changed to: 
+
+* anonymous 2/minutes
+* logged in : 4/second, 300/minute
+
+
 ## Going further
 
 Browse the full [AI Endpoints documentation](/products/public-cloud-ai-and-machine-learning-ai-endpoints) to further understand the main concepts and get started.
